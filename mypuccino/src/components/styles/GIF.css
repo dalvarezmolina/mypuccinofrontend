@@ -1,0 +1,61 @@
+
+  
+  .all {
+    z-index: 1;
+  }
+  
+  /* body {
+    background-color: blueviolet;
+  } */
+  
+  @keyframes example {
+    0%  { left:0%; top:0%; }
+    10% { left:45%; top:70%; }
+    20% { left:90%; top:0%; }
+    30% { left:90%; top:70%; }
+    40% { left:45%; top:0%; }
+    50% { left:0%; top:70%; }
+    60% { left:0%; top:0%; }
+    100% { left:0%; top:0%; }
+
+    
+  }
+  
+  .puccinoGif {
+    position: fixed;
+    z-index: 2;
+    animation-name: example;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    width: 10vw;
+
+  }
+  .puccinoGif img{
+    width: 100%;
+  }
+  
+
+  @keyframes example2 {
+    0%  { left:0%; top:0%; }
+    40% { left:90%; top:0%; }
+    60% { transform:  scale(-1, 1); }
+    60% { left:90%; top:0%;  }
+    90% {  left:0%; top:0%; }
+    100% { left:0%; top:0%;  transform:  scale(-1, 1); }
+  }
+  
+  .puccinoGif2 {
+    position: fixed;
+    z-index: 2;
+    animation-name: example2;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    width: 10vw;
+
+  }
+  .puccinoGif2 img{
+    width: 100%;
+  }
+  
+  
+  
